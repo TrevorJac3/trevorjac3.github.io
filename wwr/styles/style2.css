@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body {
+    font-family: 'Anton', sans-serif;
+    background-color: #1e3c54;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+h4{
+    color: white;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.home-title{
+    color: white;
+    text-shadow: black 10px;
+    font-family: 'Scheherazade New', serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #498c94;
+}
+nav a:hover{
+    background-color: #4379a5;
+}
+.book, .join{
+    font-family: 'Scheherazade New', serif;
+    font-size: 18px;
+    color: rgb(131, 131, 131);
+    background-color: #1e3c54;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover{
+    color: black;
+    background-color: #4379a5;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+nav a{
+    font-size: 35px;
+    padding: 4px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+#hero-img{
+    width: 100%;
+    height: 90%
+}
+#hero-msg{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    margin-top: 100px;
+}
+#hero-msg h1 {
+    text-align: center;
+    font-family: 'Scheherazade New', serif;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background {
+    background-color: #4e5355;
+    height: 725px;
+    grid-column: 1/12;
+    grid-row: 4/10;
+}
+.msg{
+    padding: 35px;
+    background-color: #498c94;
+    
+    grid-column: 6/11;
+    grid-row: 6/8;
+    box-shadow: 5px 5px 10px grey;
+}
+.msg h2{
+    color: black;
+    font-family: 'Scheherazade New', serif;
+}
+.msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
+    color: black;
+}
+footer{
+    padding: 25px 50px;
+    background-color: rgb(25, 111, 126);
+    margin-top: 200px;
+}
+footer h3{
+    color: black;
+}
+footer a{
+    color:rgb(131, 131, 131);
+    text-decoration: none;
+}
+footer a:hover{
+    color:black;
+}
+footer h3 a:hover{
+    text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.icon {
+    padding-top: 10px;
+    width: 80px;
+}
+.logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+    max-width: 300px;
+    max-height: 350px;
+}
+.card-img{
+    border: 10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+main section img{
+    box-sizing: border-box;
+}
+.card-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.card-img, .mountain {
+    width: 100%;
+    height: 75%;
+}
+.rivers-card{
+    grid-column: 2/4;
+    grid-row: 2/4;
+
+}
+.camping-card{
+    grid-column: 4/6;
+    grid-row: 2/4;
+}
+.rapids-card{
+    grid-column: 7/10;
+    grid-row: 2/4;
+}
+.mountains{
+    grid-column: 2/8;
+    grid-row: 5/9;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.footer{
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bigimg{
+    padding-top: 150px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.Trevor{
+    padding-top: 150px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
