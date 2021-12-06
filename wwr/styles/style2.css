@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,100&family=Roboto+Condensed:wght@300&display=swap');
 body {
-    font-family: 'Anton', sans-serif;
-    background-color: #1e3c54;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #467daa;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 h2 {
-    margin: 0;
+    margin: 0 auto;
+    padding-top: 135px;
 }
 h4{
     color: white;
@@ -27,7 +30,7 @@ h4{
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #498c94;
+    background-color: #50969e;
 }
 .icon-bar {
     width: 100%; /* Full-width */
@@ -50,25 +53,12 @@ header {
   }
   
   .active {
-    background-color: #04AA6D; /* Add an active/current color */
+    background-color: #04aa8e; /* Add an active/current color */
   }
 nav a:hover{
     background-color: #4379a5;
 }
-.book, .join{
-    font-family: 'Scheherazade New', serif;
-    font-size: 18px;
-    color: rgb(131, 131, 131);
-    background-color: #1e3c54;
-    text-decoration: none;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-.book:hover, .join:hover{
-    color: black;
-    background-color: #4379a5;
-}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -142,7 +132,7 @@ main section {
 }
 footer{
     padding: 25px 50px;
-    background-color: rgb(25, 111, 126);
+    background-color: rgb(25, 77, 126);
     margin-top: 200px;
 }
 footer h3{
